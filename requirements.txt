@@ -1,0 +1,8 @@
+pandas 
+numpy 
+openai
+sacremoses==0.0.53
+datasets
+transformers
+torch
+transformers[sentencepiece]
