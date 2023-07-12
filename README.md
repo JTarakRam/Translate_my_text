@@ -31,6 +31,10 @@ Run the application: `streamlit run app.py`
 
 Open your web browser and access the application at http://localhost:8501.
 
+Here is the sample - 
+
+![Translator](image.png)
+
 ## Test your Translator 
 
 Enter the text you want to translate in the provided text area.
