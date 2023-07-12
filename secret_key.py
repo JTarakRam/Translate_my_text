@@ -1,1 +1,1 @@
-openapi_key = "Add your API Here"
+openapi_key = 'your API Key'

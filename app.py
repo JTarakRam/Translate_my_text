@@ -1,7 +1,6 @@
 import streamlit as st
 import os
 import openai
-
 from secret_key import openapi_key
 
 os.environ['OPENAI_API_KEY'] = openapi_key
@@ -54,7 +53,7 @@ def translate_text(text, source_language, target_language):
         max_tokens=100,
         n=1,
         stop=None,
-        temperature=0.2,
+        temperature=0,
         top_p=1.0,
         frequency_penalty=0.0,
         presence_penalty=0.0
@@ -65,7 +64,7 @@ def translate_text(text, source_language, target_language):
 
 # Streamlit web app
 def main():
-    st.title("Language Translation")
+    st.title("Translate My Text")
 
     # Input text
     text = st.text_area("Enter the text to translate")
