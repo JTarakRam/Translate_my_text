@@ -12,7 +12,7 @@ Before running the application, make sure you have the following installed:
 
 ## Getting Started
 
-1. Clone the repository: 'git clone https://github.com/your-username/language-translation-app.git'
+1. Clone the repository: 'git clone https://github.com/JTarakRam/Translate_my_text.git'
 
 2. Navigate to the project directory: `cd Translate`
 
