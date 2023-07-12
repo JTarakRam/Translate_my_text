@@ -14,9 +14,9 @@ Before running the application, make sure you have the following installed:
 
 1. Clone the repository: 'git clone https://github.com/your-username/language-translation-app.git'
 
-2. Navigate to the project directory: ' cd Translate '
+2. Navigate to the project directory: `cd Translate`
 
-3. Install the required dependencies: ' pip install -r requirements.txt '
+3. Install the required dependencies: `pip install -r requirements.txt`
 
 4. Set up your OpenAI API key:
 
@@ -25,9 +25,9 @@ Before running the application, make sure you have the following installed:
 
 ## Setup API Key
 
-openapi_key = 'your_openai_api_key'
+openapi_key = `your_openai_api_key`
 
-Run the application: ' streamlit run app.py '
+Run the application: `streamlit run app.py`
 
 Open your web browser and access the application at http://localhost:8501.
 
